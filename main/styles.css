@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0092ca;
+  font-family: sans-serif;
+}
+
+/* Nav styling, a, href, */
+
+.navbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  background-color: #222831 0.5;
+  padding: 10px;
+}
+
+.navbar a {
+  margin: 5px 0;
+}
+.navbar img {
+  width: 50px;
+  height: auto;
+  opacity: 0.7;
+}
+.navbar img:hover {
+  opacity: 1;
+}
+
+/* Footer styling */
+
+footer {
+  background: #eeeeee;
+  text-align: center;
+  border: solid black;
+  margin-top: 50px;
+}
+
+footer a {
+  color: white;
+}
+footer a:hover {
+  color: blue;
+}
+footer a:visited {
+  color: grey;
+}
+
+#gTag {
+  color: purple;
+  text-align: center;
+}
+
+#twitchlogo {
+  width: 44px;
+  height: 44px;
+}
